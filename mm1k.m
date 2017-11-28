@@ -14,7 +14,7 @@ avg_latency = 10.7*10^-6;
 avg_latency_ip = 250*10^-6;
 
 % Very important! Our vector
-queue_size = 1024
+queue_size = 4096
 vector = 256
 
 max_vector_per_queue = queue_size / vector;
